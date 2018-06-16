@@ -12,4 +12,19 @@ public class UnspliceTest {
     public void testUnspliceCase002(){
         Assert.assertEquals("abc\ndef",  Unsplice.unspliceMethod("abc\ndef"));
     }
+
+    @Test
+    public void testUnspliceCase003(){
+        Assert.assertEquals("abc\\def",  Unsplice.unspliceMethod("abc\\def"));
+    }
+
+    @Test
+    public void testUnspliceCase004(){
+        Assert.assertEquals("abc\n\\def",  Unsplice.unspliceMethod("abc\n\\def"));
+    }
+
+    @Test
+    public void testUnspliceCase005(){
+        Assert.assertEquals("abcdef",  Unsplice.unspliceMethod("abc\\\ndef"));
+    }
 }
