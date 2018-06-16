@@ -21,6 +21,7 @@ assuming that:
 
 public class Unsplice {
     public static String unspliceMethod(String stringValue) {
-        return stringValue;
+        String regex = "\\\\\\n";
+        return stringValue.replaceAll(regex,"");
     }
 }

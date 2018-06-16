@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a11722ad-9200-40f6-b240-6abd00242290" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Unsplice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Unsplice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnspliceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnspliceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,25 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Unsplice.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Unsplice.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Unsplice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="437">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="e#0#132#0" expanded="true" />
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#117#118#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnspliceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UnspliceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnspliceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="430">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#125#126#0" expanded="true" />
@@ -70,8 +67,8 @@
         <option value="$PROJECT_DIR$/.travlis.yml" />
         <option value="$PROJECT_DIR$/src/test/java/CountCoinTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CountCoin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Unsplice.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnspliceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Unsplice.java" />
       </list>
     </option>
   </component>
@@ -146,6 +143,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="Sample Text" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -221,6 +219,40 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="UnspliceTest.testUnspliceCase002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSDDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnspliceTest" />
+      <option name="METHOD_NAME" value="testUnspliceCase002" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UnspliceTest.testUnspliceCase005" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSDDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnspliceTest" />
+      <option name="METHOD_NAME" value="testUnspliceCase005" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -263,10 +295,14 @@
       <item itemvalue="JUnit.CountCoinTest.countCoinTestCase001" />
       <item itemvalue="JUnit.CountCoinTest" />
       <item itemvalue="JUnit.UnspliceTest" />
+      <item itemvalue="JUnit.UnspliceTest.testUnspliceCase002" />
+      <item itemvalue="JUnit.UnspliceTest.testUnspliceCase005" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UnspliceTest" />
+        <item itemvalue="JUnit.UnspliceTest.testUnspliceCase005" />
+        <item itemvalue="JUnit.UnspliceTest.testUnspliceCase002" />
         <item itemvalue="JUnit.CountCoinTest" />
         <item itemvalue="JUnit.CountCoinTest.countCoinTestCase001" />
       </list>
@@ -282,17 +318,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529138967714</updated>
-      <workItem from="1529138971155" duration="2391000" />
+      <workItem from="1529138971155" duration="3234000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountCoinTest_countCoinTestCase001 - 2018.06.16 at 16h 52m 01s.xml">
-      <configuration name="CountCoinTest.countCoinTestCase001" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountCoinTest - 2018.06.16 at 17h 10m 29s.xml">
-      <configuration name="CountCoinTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnspliceTest - 2018.06.16 at 17h 20m 08s.xml">
       <configuration name="UnspliceTest" configurationId="JUnit" />
     </history-entry>
@@ -302,9 +332,30 @@
     <history-entry file="UnspliceTest - 2018.06.16 at 17h 28m 36s.xml">
       <configuration name="UnspliceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnspliceTest - 2018.06.16 at 17h 32m 48s.xml">
+      <configuration name="UnspliceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnspliceTest_testUnspliceCase002 - 2018.06.16 at 17h 35m 09s.xml">
+      <configuration name="UnspliceTest.testUnspliceCase002" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnspliceTest - 2018.06.16 at 17h 35m 14s.xml">
+      <configuration name="UnspliceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnspliceTest - 2018.06.16 at 17h 36m 38s.xml">
+      <configuration name="UnspliceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnspliceTest - 2018.06.16 at 17h 40m 19s.xml">
+      <configuration name="UnspliceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnspliceTest - 2018.06.16 at 17h 42m 24s.xml">
+      <configuration name="UnspliceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnspliceTest_testUnspliceCase005 - 2018.06.16 at 17h 42m 30s.xml">
+      <configuration name="UnspliceTest.testUnspliceCase005" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2391000" />
+    <option name="totallyTimeSpent" value="3234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
@@ -380,18 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Unsplice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#132#0" expanded="true" />
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CountCoin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -405,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnspliceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="430">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#125#126#0" expanded="true" />
@@ -419,6 +458,16 @@
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#673#674#0" expanded="true" />
             <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Unsplice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
