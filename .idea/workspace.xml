@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11722ad-9200-40f6-b240-6abd00242290" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Unsplice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Unsplice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnspliceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnspliceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Unsplice.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Unsplice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Unsplice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnspliceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UnspliceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnspliceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="449">
+              <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#125#126#0" expanded="true" />
@@ -44,6 +44,8 @@
                 <element signature="e#615#616#0" expanded="true" />
                 <element signature="e#673#674#0" expanded="true" />
                 <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +69,8 @@
         <option value="$PROJECT_DIR$/.travlis.yml" />
         <option value="$PROJECT_DIR$/src/test/java/CountCoinTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CountCoin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnspliceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Unsplice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnspliceTest.java" />
       </list>
     </option>
   </component>
@@ -318,14 +320,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529138967714</updated>
-      <workItem from="1529138971155" duration="3234000" />
+      <workItem from="1529138971155" duration="3300000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnspliceTest - 2018.06.16 at 17h 20m 08s.xml">
-      <configuration name="UnspliceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnspliceTest - 2018.06.16 at 17h 21m 36s.xml">
       <configuration name="UnspliceTest" configurationId="JUnit" />
     </history-entry>
@@ -353,9 +352,12 @@
     <history-entry file="UnspliceTest_testUnspliceCase005 - 2018.06.16 at 17h 42m 30s.xml">
       <configuration name="UnspliceTest.testUnspliceCase005" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnspliceTest - 2018.06.16 at 17h 43m 34s.xml">
+      <configuration name="UnspliceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3234000" />
+    <option name="totallyTimeSpent" value="3300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
@@ -442,10 +444,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Unsplice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnspliceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="449">
+          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#125#126#0" expanded="true" />
@@ -458,16 +470,8 @@
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#673#674#0" expanded="true" />
             <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Unsplice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#132#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -27,4 +27,8 @@ public class UnspliceTest {
     public void testUnspliceCase005(){
         Assert.assertEquals("abcdef",  Unsplice.unspliceMethod("abc\\\ndef"));
     }
+    @Test
+    public void testUnspliceCase006(){
+        Assert.assertEquals("abcdef",  Unsplice.unspliceMethod("ab\\\ncd\\\nef"));
+    }
 }
