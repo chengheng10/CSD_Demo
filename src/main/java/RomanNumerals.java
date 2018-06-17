@@ -27,51 +27,18 @@ Examples:
   47 -> "XLVII"  (40 -> "XL" + 7 -> "VII")
 */
 public class RomanNumerals {
-    private static String result = "";
-    private static HashMap<String, String> romanNumberalHS = new HashMap<String, String>();
-
-    public RomanNumerals() {
-        romanNumberalHS.put("0","");
-        romanNumberalHS.put("1","I");
-        romanNumberalHS.put("2","II");
-        romanNumberalHS.put("3","III");
-        romanNumberalHS.put("4","IV");
-        romanNumberalHS.put("5","V");
-        romanNumberalHS.put("6","VI");
-        romanNumberalHS.put("7","VII");
-        romanNumberalHS.put("8","VIII");
-        romanNumberalHS.put("9","IX");
-        romanNumberalHS.put("10","X");
-        romanNumberalHS.put("20","XX");
-        romanNumberalHS.put("30","XXX");
-        romanNumberalHS.put("40","XL");
-        romanNumberalHS.put("50","L");
-        romanNumberalHS.put("60","LX");
-        romanNumberalHS.put("70","LXX");
-        romanNumberalHS.put("80","LXXX");
-        romanNumberalHS.put("90","XC");
-        romanNumberalHS.put("100","C");
-        romanNumberalHS.put("200","CC");
-        romanNumberalHS.put("300","CCC");
-        romanNumberalHS.put("400","CD");
-        romanNumberalHS.put("500","D");
-        romanNumberalHS.put("600","DC");
-        romanNumberalHS.put("700","DCC");
-        romanNumberalHS.put("800","DCCC");
-        romanNumberalHS.put("900","CM");
-        romanNumberalHS.put("1000","M");
-        romanNumberalHS.put("2000","MM");
-        romanNumberalHS.put("3000","MMM");
-        romanNumberalHS.put("4000","MMMM");
-    }
-    public static String romanNumeralRepresentation(int i) {
-        result = romanNumberalHS.get(String.valueOf(i/1000*1000));
-        i%=1000;
-        result =result+ romanNumberalHS.get(String.valueOf(i/100*100));
-        i%=100;
-        result = result+romanNumberalHS.get(String.valueOf(i/10*10));
-        i%=10;
-        result = result+romanNumberalHS.get(String.valueOf(i));
+    public static int[] number = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+    public static String[] flags = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+    public static String romanNumeralRepresentation(int num) {
+        String result = "";
+        if (num <= 0) return "";
+        for (int i = 0; i < 13 && num > 0; i++) {
+            if (num < number[i]) continue;
+            while (num >= number[i]) {
+                num -= number[i];
+                result += flags[i];
+            }
+        }
         return result;
     }
 }
