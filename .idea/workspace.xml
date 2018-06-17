@@ -19,8 +19,8 @@
       <file leaf-file-name="NumberNamesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/NumberNamesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+            <state relative-caret-position="152">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="NumberNames.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/NumberNames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="46" column="85" lean-forward="true" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
+            <state relative-caret-position="316">
+              <caret line="42" column="120" selection-start-line="42" selection-start-column="120" selection-end-line="42" selection-end-column="120" />
               <folding>
                 <element signature="e#0#112#0" expanded="true" />
                 <element signature="e#572#588#0" expanded="true" />
@@ -241,14 +241,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UnspliceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberNamesTest.numberNamesTestCase004" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CSDDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnspliceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="NumberNamesTest" />
+      <option name="METHOD_NAME" value="numberNamesTestCase004" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -297,19 +297,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UnspliceTest" />
       <item itemvalue="JUnit.NumberNamesTest" />
       <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase001" />
       <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase002" />
       <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase003" />
+      <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase004" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NumberNamesTest" />
         <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase003" />
+        <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase004" />
         <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase001" />
         <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase002" />
-        <item itemvalue="JUnit.UnspliceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -325,44 +325,44 @@
       <updated>1529138967714</updated>
       <workItem from="1529138971155" duration="4924000" />
       <workItem from="1529196679588" duration="405000" />
-      <workItem from="1529197192454" duration="4331000" />
+      <workItem from="1529197192454" duration="5013000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberNamesTest_numberNamesTestCase002 - 2018.06.17 at 10h 26m 56s.xml">
-      <configuration name="NumberNamesTest.numberNamesTestCase002" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 27m 02s.xml">
-      <configuration name="NumberNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 27m 23s.xml">
-      <configuration name="NumberNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberNamesTest_numberNamesTestCase001 - 2018.06.17 at 10h 27m 55s.xml">
-      <configuration name="NumberNamesTest.numberNamesTestCase001" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 28m 00s.xml">
-      <configuration name="NumberNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 31m 45s.xml">
-      <configuration name="NumberNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 33m 36s.xml">
-      <configuration name="NumberNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 35m 10s.xml">
-      <configuration name="NumberNamesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumberNamesTest - 2018.06.17 at 10h 35m 55s.xml">
       <configuration name="NumberNamesTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="NumberNamesTest_numberNamesTestCase003 - 2018.06.17 at 10h 36m 27s.xml">
       <configuration name="NumberNamesTest.numberNamesTestCase003" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 39m 32s.xml">
+      <configuration name="NumberNamesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberNamesTest_numberNamesTestCase004 - 2018.06.17 at 10h 42m 29s.xml">
+      <configuration name="NumberNamesTest.numberNamesTestCase004" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 42m 34s.xml">
+      <configuration name="NumberNamesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 44m 44s.xml">
+      <configuration name="NumberNamesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberNamesTest_numberNamesTestCase003 - 2018.06.17 at 10h 45m 39s.xml">
+      <configuration name="NumberNamesTest.numberNamesTestCase003" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 45m 43s.xml">
+      <configuration name="NumberNamesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 47m 02s.xml">
+      <configuration name="NumberNamesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberNamesTest - 2018.06.17 at 10h 50m 25s.xml">
+      <configuration name="NumberNamesTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9660000" />
+    <option name="totallyTimeSpent" value="10342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="461" y="24" width="1400" height="1000" extended-state="0" />
@@ -511,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NumberNamesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+        <state relative-caret-position="152">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
@@ -527,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NumberNames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="46" column="85" lean-forward="true" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
+        <state relative-caret-position="316">
+          <caret line="42" column="120" selection-start-line="42" selection-start-column="120" selection-end-line="42" selection-end-column="120" />
           <folding>
             <element signature="e#0#112#0" expanded="true" />
             <element signature="e#572#588#0" expanded="true" />

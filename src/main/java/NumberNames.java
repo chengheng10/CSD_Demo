@@ -39,14 +39,15 @@ public class NumberNames {
 
     public String getNumberNames(long number) {
         String result = "";
-        if (number < 12) {
-            result = this.numberHash.get(String.valueOf(number));
-        } else if (number < 100) {
-            result = this.numberHash.get(String.valueOf(number / 10)) + "ty " + this.numberHash.get(String.valueOf(number % 10));
+        if (number >= 1000) {
+            result = this.numberHash.get(String.valueOf(number / 1000)) + " thousand" + ((number % 1000 == 0) ? "" : ", ") + getNumberNames(number % 1000);
         } else if (number >= 100) {
-            result = this.numberHash.get(String.valueOf(number / 100)) + " hundred" + ((number%100==0)?"":" and ")+getNumberNames(number % 100);
+            result = this.numberHash.get(String.valueOf(number / 100)) + " hundred" + ((number % 100 == 0) ? "" : " and " + getNumberNames(number % 100));
+        } else if (number < 100 && number > 12) {
+            result = this.numberHash.get(String.valueOf(number / 10)) + "ty " + this.numberHash.get(String.valueOf(number % 10));
+        } else if (number <= 12) {
+            result = this.numberHash.get(String.valueOf(number));
         }
-
 
         return result;
     }
