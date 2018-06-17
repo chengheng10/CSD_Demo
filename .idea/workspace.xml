@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11722ad-9200-40f6-b240-6abd00242290" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RomanNumerals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NumberNamesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NumberNamesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NumberNames.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NumberNames.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NumberNamesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NumberNamesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanNumerals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,12 +35,14 @@
       <file leaf-file-name="RomanNumeralsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            <state relative-caret-position="190">
+              <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,12 +51,8 @@
       <file leaf-file-name="RomanNumerals.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumerals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#112#113#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="589">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -253,23 +246,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NumberNamesTest.numberNamesTestCase003" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CSDDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumberNamesTest" />
-      <option name="METHOD_NAME" value="numberNamesTestCase003" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="NumberNamesTest.numberNamesTestCase004" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CSDDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -295,6 +271,23 @@
       <option name="MAIN_CLASS_NAME" value="RomanNumeralsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RomanNumeralsTest.romanNummeralsTestCase002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSDDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="romanNummeralsTestCase002" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -344,18 +337,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.NumberNamesTest" />
-      <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase003" />
       <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase004" />
       <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase001" />
       <item itemvalue="JUnit.RomanNumeralsTest" />
+      <item itemvalue="JUnit.RomanNumeralsTest.romanNummeralsTestCase002" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RomanNumeralsTest" />
+        <item itemvalue="JUnit.RomanNumeralsTest.romanNummeralsTestCase002" />
         <item itemvalue="JUnit.NumberNamesTest" />
         <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase001" />
         <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase004" />
-        <item itemvalue="JUnit.NumberNamesTest.numberNamesTestCase003" />
       </list>
     </recent_temporary>
   </component>
@@ -371,17 +364,11 @@
       <updated>1529138967714</updated>
       <workItem from="1529138971155" duration="4924000" />
       <workItem from="1529196679588" duration="405000" />
-      <workItem from="1529197192454" duration="10792000" />
+      <workItem from="1529197192454" duration="11771000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberNamesTest - 2018.06.17 at 13h 14m 13s.xml">
-      <configuration name="NumberNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberNamesTest - 2018.06.17 at 13h 16m 28s.xml">
-      <configuration name="NumberNamesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumberNamesTest - 2018.06.17 at 13h 19m 25s.xml">
       <configuration name="NumberNamesTest" configurationId="JUnit" />
     </history-entry>
@@ -406,9 +393,15 @@
     <history-entry file="NumberNamesTest - 2018.06.17 at 13h 33m 33s.xml">
       <configuration name="NumberNamesTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanNumeralsTest - 2018.06.17 at 14h 35m 08s.xml">
+      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralsTest_romanNummeralsTestCase002 - 2018.06.17 at 14h 36m 36s.xml">
+      <configuration name="RomanNumeralsTest.romanNummeralsTestCase002" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16121000" />
+    <option name="totallyTimeSpent" value="17100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -416,7 +409,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32884398" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3284055" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -424,7 +417,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.062302005" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2217529" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -587,24 +580,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="190">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumerals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="589">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
