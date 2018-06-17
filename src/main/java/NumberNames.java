@@ -20,6 +20,7 @@ import java.util.HashMap;
 
 public class NumberNames {
     public HashMap<String, String> numberHash = new HashMap<String, String>();
+    public String result = "";
 
     public NumberNames() {
         this.numberHash.put("0", "");
@@ -38,9 +39,9 @@ public class NumberNames {
     }
 
     public String getNumberNames(long number) {
-        String result = "";
+//        String result = "";
         if (number >= 1000) {
-            result = this.numberHash.get(String.valueOf(number / 1000)) + " thousand" + ((number % 1000 == 0) ? "" : ", ") + getNumberNames(number % 1000);
+            result = String.valueOf(getNumberNames(number / 1000)) + " thousand" + ((number % 1000 == 0) ? "" : ", ") + getNumberNames(number % 1000);
         } else if (number >= 100) {
             result = this.numberHash.get(String.valueOf(number / 100)) + " hundred" + ((number % 100 == 0) ? "" : " and " + getNumberNames(number % 100));
         } else if (number < 100 && number > 12) {
@@ -48,7 +49,6 @@ public class NumberNames {
         } else if (number <= 12) {
             result = this.numberHash.get(String.valueOf(number));
         }
-
         return result;
     }
 }
