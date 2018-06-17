@@ -1,3 +1,4 @@
+import java.util.HashMap;
 
 /*
 Given a positive integer number (eg 42) determine
@@ -27,12 +28,45 @@ Examples:
 */
 public class RomanNumerals {
     private static String result = "";
+    private static HashMap<String, String> romanNumberalHS = new HashMap<String, String>();
+
+    public RomanNumerals() {
+        romanNumberalHS.put("1","I");
+        romanNumberalHS.put("2","II");
+        romanNumberalHS.put("3","III");
+        romanNumberalHS.put("4","IV");
+        romanNumberalHS.put("5","V");
+        romanNumberalHS.put("6","VI");
+        romanNumberalHS.put("7","VII");
+        romanNumberalHS.put("8","VIII");
+        romanNumberalHS.put("9","IX");
+        romanNumberalHS.put("10","X");
+        romanNumberalHS.put("20","XX");
+        romanNumberalHS.put("30","XXX");
+        romanNumberalHS.put("40","XL");
+        romanNumberalHS.put("50","L");
+        romanNumberalHS.put("60","LX");
+        romanNumberalHS.put("70","LXX");
+        romanNumberalHS.put("80","LXXX");
+        romanNumberalHS.put("90","XC");
+        romanNumberalHS.put("100","C");
+        romanNumberalHS.put("200","CC");
+        romanNumberalHS.put("300","CCC");
+        romanNumberalHS.put("400","CD");
+        romanNumberalHS.put("500","D");
+        romanNumberalHS.put("600","DC");
+        romanNumberalHS.put("700","DCC");
+        romanNumberalHS.put("800","DCCC");
+        romanNumberalHS.put("900","CM");
+        romanNumberalHS.put("1000","M");
+        romanNumberalHS.put("2000","MM");
+        romanNumberalHS.put("3000","MMM");
+        romanNumberalHS.put("4000","MMMM");
+
+
+    }
+
     public static String romanNumeralRepresentation(int i) {
-        if (i==1){
-            result = "I";
-        }else{
-            result="II";
-        }
-        return result;
+        return romanNumberalHS.get(String.valueOf(i));
     }
 }
