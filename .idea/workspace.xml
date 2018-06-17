@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a11722ad-9200-40f6-b240-6abd00242290" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travlis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travlis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CountCoinTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CountCoinTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CountCoinTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CountCoinTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-UnspliceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-UnspliceTest.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a11722ad-9200-40f6-b240-6abd00242290" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -330,7 +324,7 @@
       <updated>1529138967714</updated>
       <workItem from="1529138971155" duration="4924000" />
       <workItem from="1529196679588" duration="405000" />
-      <workItem from="1529197192454" duration="262000" />
+      <workItem from="1529197192454" duration="708000" />
     </task>
     <servers />
   </component>
@@ -367,7 +361,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5591000" />
+    <option name="totallyTimeSpent" value="6037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
