@@ -25,4 +25,8 @@ public class NumberNamesTest {
     public void numberNamesTestCase004() {
         Assert.assertEquals("one thousand, five hundred and one",numberNames.getNumberNames(1501));
     }
+    @Test
+    public void numberNamesTestCase005() {
+        Assert.assertEquals("twelve thousand, six hundred and nine",numberNames.getNumberNames(12609));
+    }
 }
