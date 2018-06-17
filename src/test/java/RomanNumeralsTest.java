@@ -17,4 +17,8 @@ public class RomanNumeralsTest {
     public void romanNummeralsTestCase002(){
         Assert.assertEquals("II",romanNumerals.romanNumeralRepresentation(2));
     }
+    @Test
+    public void romanNummeralsTestCase003(){
+        Assert.assertEquals("XLVII",romanNumerals.romanNumeralRepresentation(47));
+    }
 }

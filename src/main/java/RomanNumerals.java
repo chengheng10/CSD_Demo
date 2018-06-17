@@ -31,6 +31,7 @@ public class RomanNumerals {
     private static HashMap<String, String> romanNumberalHS = new HashMap<String, String>();
 
     public RomanNumerals() {
+        romanNumberalHS.put("0","");
         romanNumberalHS.put("1","I");
         romanNumberalHS.put("2","II");
         romanNumberalHS.put("3","III");
@@ -62,11 +63,15 @@ public class RomanNumerals {
         romanNumberalHS.put("2000","MM");
         romanNumberalHS.put("3000","MMM");
         romanNumberalHS.put("4000","MMMM");
-
-
     }
-
     public static String romanNumeralRepresentation(int i) {
-        return romanNumberalHS.get(String.valueOf(i));
+        result = romanNumberalHS.get(String.valueOf(i/1000*1000));
+        i%=1000;
+        result =result+ romanNumberalHS.get(String.valueOf(i/100*100));
+        i%=100;
+        result = result+romanNumberalHS.get(String.valueOf(i/10*10));
+        i%=10;
+        result = result+romanNumberalHS.get(String.valueOf(i));
+        return result;
     }
 }
