@@ -17,11 +17,13 @@ Spell out a number. For example
 
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class NumberNames {
     public HashMap<String, String> numberHash = new HashMap<String, String>();
     public HashMap<String, String> numberTeenHash = new HashMap<String, String>();
     public HashMap<String, String> numberTyHash = new HashMap<String, String>();
+    public LinkedHashMap<String, String> numberKeyHash = new LinkedHashMap<String, String>();
     public String result = "";
 
     public NumberNames() {
@@ -64,7 +66,7 @@ public class NumberNames {
         } else if (number >= 100) {
             result = String.valueOf(getNumberNames(number / 100)) + " hundred" + ((number % 100 == 0) ? "" : " and " + getNumberNames(number % 100));
         } else if (number >= 20) {
-            result = this.numberTyHash.get(String.valueOf(number / 10)) + " " + this.numberHash.get(String.valueOf(number % 10));
+            result = this.numberTyHash.get(String.valueOf(number / 10)) + ((number % 10 == 0) ? "" : " " + getNumberNames(number % 10));
         } else if (number > 10) {
             result = this.numberTeenHash.get(String.valueOf(number));
         }else{

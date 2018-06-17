@@ -11,7 +11,15 @@ public class NumberNamesTest {
 
     @Test
     public void numberNamesTestCase001() {
+        Assert.assertEquals("nine",numberNames.getNumberNames(9));
+        Assert.assertEquals("ten",numberNames.getNumberNames(10));
+        Assert.assertEquals("eleven",numberNames.getNumberNames(11));
+        Assert.assertEquals("twelve",numberNames.getNumberNames(12));
+        Assert.assertEquals("thirteen",numberNames.getNumberNames(13));
+        Assert.assertEquals("twenty",numberNames.getNumberNames(20));
+        Assert.assertEquals("thirty one",numberNames.getNumberNames(31));
         Assert.assertEquals("ninety nine",numberNames.getNumberNames(99));
+
     }
     @Test
     public void numberNamesTestCase002() {
