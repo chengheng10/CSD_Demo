@@ -21,4 +21,16 @@ public class RomanNumeralsTest {
     public void romanNummeralsTestCase003(){
         Assert.assertEquals("XLVII",romanNumerals.romanNumeralRepresentation(47));
     }
+    @Test
+    public void romanNummeralsTestCase004(){
+        Assert.assertEquals("XCIX",romanNumerals.romanNumeralRepresentation(99));
+    }
+    @Test
+    public void romanNummeralsTestCase005(){
+        Assert.assertEquals("MCMXC",romanNumerals.romanNumeralRepresentation(1990));
+    }
+    @Test
+    public void romanNummeralsTestCase006(){
+        Assert.assertEquals("MMVIII",romanNumerals.romanNumeralRepresentation(2008));
+    }
 }
