@@ -97,13 +97,23 @@ Full house:
 
    */
 
+import com.sun.deploy.util.StringUtils;
+
+import java.util.Arrays;
+
 public class Yatzy {
 
     public static int getYatzyResult(String categories, int[] rolls) {
         int result = 0;
         if (categories.equals("Chance")) {
             for(int i=0;i<rolls.length;i++){
-                result+=rolls[i];
+                result+= rolls[i];
+            }
+        }else if (categories.equals("Yatzy")) {
+            String tempString = Arrays.toString(rolls).replaceAll(", ","");
+            System.out.println(tempString);
+            if(tempString.matches("[\\[][1-6]{5}[\\]]")){
+                result =50;
             }
         }
         return result;
