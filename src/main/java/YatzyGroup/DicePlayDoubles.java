@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class DicePlayDoubles implements IDicePlayWays {
+    private int pairs =0;
+    HashMap<Integer,Integer> numberMap = new HashMap<Integer, Integer>();
+
+
     public int getPairs() {
         return pairs;
     }
@@ -12,15 +16,22 @@ public class DicePlayDoubles implements IDicePlayWays {
         this.pairs = pairs;
     }
 
-    private int pairs =0;
-
     public DicePlayDoubles() {
         this.pairs = 2;
     }
 
     public int getYatzyResult(int[] rolls) {
         int result = 0;
-        HashMap<Integer,Integer> numberMap = new HashMap<Integer, Integer>();
+        Set<Integer> numberSet = initialResultMap(rolls);
+        for (Integer temp : numberSet) {
+            if (numberMap.get(temp) == getPairs()) {
+                result = temp * getPairs();
+            }
+        }
+        return result;
+    }
+
+    private Set<Integer> initialResultMap(int[] rolls) {
         for (int i = 0; i < rolls.length; i++) {
             Integer tempNumber = new Integer(rolls[i]);
             if (numberMap.containsKey(tempNumber)) {
@@ -29,12 +40,6 @@ public class DicePlayDoubles implements IDicePlayWays {
                 numberMap.put(tempNumber, 1);
             }
         }
-        Set<Integer> numberSet = numberMap.keySet();
-        for (Integer temp : numberSet) {
-            if (numberMap.get(temp) == getPairs()) {
-                result = temp * getPairs();
-            }
-        }
-        return result;
+        return numberMap.keySet();
     }
 }
