@@ -102,7 +102,7 @@ import java.util.Set;
 
 public class Yatzy {
 
-    public static int getYatzyResult(String categories, int[] rolls) {
+    public  int getYatzyResult(String categories, int[] rolls) {
         int result = 0;
         if (categories.equals("Chance")) {
             for (int i = 0; i < rolls.length; i++) {
