@@ -1,4 +1,4 @@
-
+package YatzyGroup;
 /*
 * The game of yatzy is a simple dice game. Each player
 rolls five six-sided dice. The player places the roll in
@@ -97,11 +97,7 @@ Full house:
 
    */
 
-import com.sun.deploy.util.StringUtils;
-
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Set;
 
 public class Yatzy {
