@@ -107,15 +107,19 @@ public class Yatzy {
         IDicePlayWays dicePlayWays;
         if (categories.equals("Chance")) {
             dicePlayWays = new DicePlayChance();
-        }else if (categories.equals("Yatzy")) {
+        } else if (categories.equals("Yatzy")) {
             dicePlayWays = new DicePlayYatzy();
-        }else if (categories.equals("Doubles")) {
+        } else if (categories.equals("Doubles")) {
             dicePlayWays = new DicePlayDoubles();
-        }else if (categories.equals("ThreeKind")) {
+        } else if (categories.equals("ThreeKind")) {
             dicePlayWays = new DicePlayThreeKind();
-        }else if (categories.equals("FourKind")) {
+        } else if (categories.equals("FourKind")) {
             dicePlayWays = new DicePlayFourKind();
-        }else{
+        } else if (categories.equals("Smallstraight")) {
+            dicePlayWays = new DicePlaySmallstraight();
+        } else if (categories.equals("Largestraight")) {
+            dicePlayWays = new DicePlayLargestraight();
+        } else {
             dicePlayWays = new DicePlayDefault();
         }
         return dicePlayWays.getYatzyResult(rolls);

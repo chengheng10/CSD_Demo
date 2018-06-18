@@ -79,4 +79,14 @@ public class YatzyTest {
     public void yatzyTestCase014() {
         Assert.assertEquals(0, yatzy.getYatzyResult("FourKind", new int[]{2, 2, 2, 2, 2}));
     }
+
+    @Test
+    public void yatzyTestCase015() {
+        Assert.assertEquals(15, yatzy.getYatzyResult("Smallstraight", new int[]{1,2,3,4,5}));
+    }
+
+    @Test
+    public void yatzyTestCase016() {
+        Assert.assertEquals(20, yatzy.getYatzyResult("Largestraight", new int[]{2,3,4,5,6}));
+    }
 }
