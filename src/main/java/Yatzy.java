@@ -98,8 +98,14 @@ Full house:
    */
 
 public class Yatzy {
-    public static int getYatzyResult(String categories, int i, int i1, int i2, int i3, int i4) {
 
-        return i + i1 + i2 + i3 + i4;
+    public static int getYatzyResult(String categories, int[] rolls) {
+        int result = 0;
+        if (categories.equals("Chance")) {
+            for(int i=0;i<rolls.length;i++){
+                result+=rolls[i];
+            }
+        }
+        return result;
     }
 }
