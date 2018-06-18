@@ -131,6 +131,7 @@ public class Yatzy {
                 } catch (InvocationTargetException e) {
                     e.printStackTrace();
                 }
+                break;
             }
         }
         return result;
