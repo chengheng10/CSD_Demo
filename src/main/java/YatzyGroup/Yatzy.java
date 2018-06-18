@@ -113,6 +113,8 @@ public class Yatzy {
             dicePlayWays = new DicePlayDoubles();
         }else if (categories.equals("ThreeKind")) {
             dicePlayWays = new DicePlayThreeKind();
+        }else if (categories.equals("FourKind")) {
+            dicePlayWays = new DicePlayFourKind();
         }else{
             dicePlayWays = new DicePlayDefault();
         }
