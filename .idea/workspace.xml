@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11722ad-9200-40f6-b240-6abd00242290" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayLargestraight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlaySmallstraight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayTwopairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/YatzyGroup/Yatzy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/YatzyGroup/Yatzy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/YatzyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YatzyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/YatzyGroup/Yatzy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/YatzyGroup/Yatzy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/YatzyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/YatzyTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +21,8 @@
       <file leaf-file-name="YatzyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/YatzyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="398">
+              <caret line="104" column="87" selection-start-line="104" selection-start-column="87" selection-end-line="104" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
@@ -41,29 +38,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DicePlaySmallstraight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlaySmallstraight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="57" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Yatzy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/Yatzy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="120" column="40" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
+            <state relative-caret-position="303">
+              <caret line="122" column="44" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DicePlayLargestraight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayLargestraight.java">
+      <file leaf-file-name="DicePlayDoubles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayDoubles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+            <state relative-caret-position="341">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DicePlayTwopairs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayTwopairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#408#426#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,8 +116,9 @@
         <option value="$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayThreeKind.java" />
         <option value="$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayFourKind.java" />
         <option value="$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlaySmallstraight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/YatzyGroup/Yatzy.java" />
         <option value="$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayLargestraight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/YatzyGroup/Yatzy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayTwopairs.java" />
         <option value="$PROJECT_DIR$/src/test/java/YatzyTest.java" />
       </list>
     </option>
@@ -224,23 +239,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="RomanNumeralsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CSDDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomanNumeralsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="YatzyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CSDDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -275,13 +273,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="YatzyTest.yatzyTestCase002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="YatzyTest.yatzyTestCase003" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CSDDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YatzyTest" />
-      <option name="METHOD_NAME" value="yatzyTestCase002" />
+      <option name="METHOD_NAME" value="yatzyTestCase003" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -292,13 +290,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="YatzyTest.yatzyTestCase003" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="YatzyTest.yatzyTestCase018" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CSDDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YatzyTest" />
-      <option name="METHOD_NAME" value="yatzyTestCase003" />
+      <option name="METHOD_NAME" value="yatzyTestCase018" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="YatzyTest.yatzyTestCase019" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSDDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YatzyTest" />
+      <option name="METHOD_NAME" value="yatzyTestCase019" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -348,19 +363,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RomanNumeralsTest" />
       <item itemvalue="JUnit.YatzyTest" />
       <item itemvalue="JUnit.YatzyTest.yatzyTestCase001" />
-      <item itemvalue="JUnit.YatzyTest.yatzyTestCase002" />
       <item itemvalue="JUnit.YatzyTest.yatzyTestCase003" />
+      <item itemvalue="JUnit.YatzyTest.yatzyTestCase018" />
+      <item itemvalue="JUnit.YatzyTest.yatzyTestCase019" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.YatzyTest" />
+        <item itemvalue="JUnit.YatzyTest.yatzyTestCase019" />
+        <item itemvalue="JUnit.YatzyTest.yatzyTestCase018" />
         <item itemvalue="JUnit.YatzyTest.yatzyTestCase001" />
         <item itemvalue="JUnit.YatzyTest.yatzyTestCase003" />
-        <item itemvalue="JUnit.YatzyTest.yatzyTestCase002" />
-        <item itemvalue="JUnit.RomanNumeralsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -377,23 +392,11 @@
       <workItem from="1529138971155" duration="4924000" />
       <workItem from="1529196679588" duration="405000" />
       <workItem from="1529197192454" duration="17278000" />
-      <workItem from="1529290597512" duration="8634000" />
+      <workItem from="1529290597512" duration="9513000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YatzyTest - 2018.06.18 at 14h 23m 40s.xml">
-      <configuration name="YatzyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YatzyTest - 2018.06.18 at 14h 39m 51s.xml">
-      <configuration name="YatzyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YatzyTest - 2018.06.18 at 14h 43m 07s.xml">
-      <configuration name="YatzyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YatzyTest - 2018.06.18 at 14h 44m 22s.xml">
-      <configuration name="YatzyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="YatzyTest - 2018.06.18 at 14h 51m 46s.xml">
       <configuration name="YatzyTest" configurationId="JUnit" />
     </history-entry>
@@ -412,9 +415,21 @@
     <history-entry file="YatzyTest - 2018.06.18 at 15h 10m 17s.xml">
       <configuration name="YatzyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="YatzyTest - 2018.06.18 at 15h 10m 52s.xml">
+      <configuration name="YatzyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YatzyTest - 2018.06.18 at 15h 19m 12s.xml">
+      <configuration name="YatzyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YatzyTest - 2018.06.18 at 15h 24m 31s.xml">
+      <configuration name="YatzyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YatzyTest_yatzyTestCase018 - 2018.06.18 at 15h 25m 04s.xml">
+      <configuration name="YatzyTest.yatzyTestCase018" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31241000" />
+    <option name="totallyTimeSpent" value="32120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -430,11 +445,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42344245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42344245" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -671,23 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayDoubles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#202#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayThreeKind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -699,13 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/Yatzy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="120" column="40" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -723,10 +714,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/Yatzy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="122" column="44" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayDoubles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayTwopairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#408#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/YatzyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="398">
+          <caret line="104" column="87" selection-start-line="104" selection-start-column="87" selection-end-line="104" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />

@@ -119,6 +119,8 @@ public class Yatzy {
             dicePlayWays = new DicePlaySmallstraight();
         } else if (categories.equals("Largestraight")) {
             dicePlayWays = new DicePlayLargestraight();
+        }else if (categories.equals("Twopairs")) {
+            dicePlayWays = new DicePlayTwopairs();
         } else {
             dicePlayWays = new DicePlayDefault();
         }
