@@ -97,6 +97,9 @@ Full house:
 
    */
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Set;
 
@@ -104,28 +107,30 @@ public class Yatzy {
 
     public int getYatzyResult(String categories, int[] rolls) {
         int result = 0;
-        IDicePlayWays dicePlayWays;
-        if (categories.equals("Chance")) {
-            dicePlayWays = new DicePlayChance();
-        } else if (categories.equals("Yatzy")) {
-            dicePlayWays = new DicePlayYatzy();
-        } else if (categories.equals("Doubles")) {
-            dicePlayWays = new DicePlayDoubles();
-        } else if (categories.equals("ThreeKind")) {
-            dicePlayWays = new DicePlayThreeKind();
-        } else if (categories.equals("FourKind")) {
-            dicePlayWays = new DicePlayFourKind();
-        } else if (categories.equals("Smallstraight")) {
-            dicePlayWays = new DicePlaySmallstraight();
-        } else if (categories.equals("Largestraight")) {
-            dicePlayWays = new DicePlayLargestraight();
-        } else if (categories.equals("Twopairs")) {
-            dicePlayWays = new DicePlayTwopairs();
-        } else if (categories.equals("Fullhouse")) {
-            dicePlayWays = new DicePlayFullhouse();
-        } else {
-            dicePlayWays = new DicePlayDefault();
+        IDicePlayWays dicePlayWays = null;
+//        System.out.println("YatzyGroup.DicePlay" + categories);
+        Class classT = null;
+        try {
+            classT = Class.forName("YatzyGroup.DicePlay"+categories).getClass();
+            for(Method temp:classT.getDeclaredMethods()){
+                System.out.println(temp.getName());
+            }
+            System.out.println(classT.toString());
+            Constructor<?> constructor = classT.getConstructor();
+            Object obj = constructor.newInstance();
+            Method getYatzyResult = classT.getDeclaredMethod("getYatzyResult");
+            result = (Integer) getYatzyResult.invoke(obj, rolls);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
         }
-        return dicePlayWays.getYatzyResult(rolls);
+        return result;
     }
 }
