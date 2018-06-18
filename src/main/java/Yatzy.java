@@ -100,6 +100,9 @@ Full house:
 import com.sun.deploy.util.StringUtils;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Yatzy {
 
@@ -115,6 +118,22 @@ public class Yatzy {
                 if (rolls[0] != rolls[i]) isYatzy = false;
             }
             if (isYatzy) result = 50;
+        }else if (categories.equals("Doubles")) {
+            HashMap<Integer,Integer> numberMap = new HashMap<Integer, Integer>();
+            for (int i = 0; i < rolls.length; i++) {
+                Integer tempNumber = new Integer(rolls[i]);
+                if(numberMap.containsKey(tempNumber)){
+                    numberMap.put(tempNumber,numberMap.get(tempNumber)+1);
+                }else {
+                    numberMap.put(tempNumber,1);
+                }
+            }
+            Set<Integer> numberSet = numberMap.keySet();
+            for(Integer temp:numberSet){
+                if(numberMap.get(temp)==2){
+                    result = temp*2;
+                }
+            }
         }
         return result;
     }
