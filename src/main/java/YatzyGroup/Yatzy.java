@@ -102,35 +102,18 @@ import java.util.Set;
 
 public class Yatzy {
 
-    public  int getYatzyResult(String categories, int[] rolls) {
+    public int getYatzyResult(String categories, int[] rolls) {
         int result = 0;
+        IDicePlayWays dicePlayWays;
         if (categories.equals("Chance")) {
-            for (int i = 0; i < rolls.length; i++) {
-                result += rolls[i];
-            }
-        } else if (categories.equals("Yatzy")) {
-            boolean isYatzy = true;
-            for (int i = 0; i < rolls.length; i++) {
-                if (rolls[0] != rolls[i]) isYatzy = false;
-            }
-            if (isYatzy) result = 50;
+            dicePlayWays = new DicePlayChance();
+        }else if (categories.equals("Yatzy")) {
+            dicePlayWays = new DicePlayYatzy();
         }else if (categories.equals("Doubles")) {
-            HashMap<Integer,Integer> numberMap = new HashMap<Integer, Integer>();
-            for (int i = 0; i < rolls.length; i++) {
-                Integer tempNumber = new Integer(rolls[i]);
-                if(numberMap.containsKey(tempNumber)){
-                    numberMap.put(tempNumber,numberMap.get(tempNumber)+1);
-                }else {
-                    numberMap.put(tempNumber,1);
-                }
-            }
-            Set<Integer> numberSet = numberMap.keySet();
-            for(Integer temp:numberSet){
-                if(numberMap.get(temp)==2){
-                    result = temp*2;
-                }
-            }
+            dicePlayWays = new DicePlayDoubles();
+        }else{
+            dicePlayWays = new DicePlayDefault();
         }
-        return result;
+        return dicePlayWays.getYatzyResult(rolls);
     }
 }
