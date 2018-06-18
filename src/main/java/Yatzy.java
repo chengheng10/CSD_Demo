@@ -98,7 +98,7 @@ Full house:
    */
 
 public class Yatzy {
-    public static int getYatzyResult(int i, int i1, int i2, int i3, int i4) {
+    public static int getYatzyResult(String categories, int i, int i1, int i2, int i3, int i4) {
 
         return i + i1 + i2 + i3 + i4;
     }

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a11722ad-9200-40f6-b240-6abd00242290" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Yatzy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Yatzy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/YatzyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YatzyTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a11722ad-9200-40f6-b240-6abd00242290" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +37,8 @@
       <file leaf-file-name="YatzyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/YatzyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="133">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#119#120#0" expanded="true" />
@@ -57,11 +53,8 @@
       <file leaf-file-name="Yatzy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Yatzy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#3197#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
             </state>
           </provider>
         </entry>
@@ -230,23 +223,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RomanNumeralsTest.romanNummeralsTestCase003" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CSDDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomanNumeralsTest" />
-      <option name="METHOD_NAME" value="romanNummeralsTestCase003" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="RomanNumeralsTest.romanNummeralsTestCase006" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CSDDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -272,6 +248,23 @@
       <option name="MAIN_CLASS_NAME" value="YatzyTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="YatzyTest.yatzyTestCase001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSDDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YatzyTest" />
+      <option name="METHOD_NAME" value="yatzyTestCase001" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -322,17 +315,17 @@
     <list>
       <item itemvalue="JUnit.RomanNumeralsTest" />
       <item itemvalue="JUnit.RomanNumeralsTest.romanNummeralsTestCase001" />
-      <item itemvalue="JUnit.RomanNumeralsTest.romanNummeralsTestCase003" />
       <item itemvalue="JUnit.RomanNumeralsTest.romanNummeralsTestCase006" />
       <item itemvalue="JUnit.YatzyTest" />
+      <item itemvalue="JUnit.YatzyTest.yatzyTestCase001" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.YatzyTest" />
+        <item itemvalue="JUnit.YatzyTest.yatzyTestCase001" />
         <item itemvalue="JUnit.RomanNumeralsTest" />
         <item itemvalue="JUnit.RomanNumeralsTest.romanNummeralsTestCase001" />
         <item itemvalue="JUnit.RomanNumeralsTest.romanNummeralsTestCase006" />
-        <item itemvalue="JUnit.RomanNumeralsTest.romanNummeralsTestCase003" />
       </list>
     </recent_temporary>
   </component>
@@ -349,14 +342,11 @@
       <workItem from="1529138971155" duration="4924000" />
       <workItem from="1529196679588" duration="405000" />
       <workItem from="1529197192454" duration="17278000" />
-      <workItem from="1529290597512" duration="233000" />
+      <workItem from="1529290597512" duration="926000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralsTest - 2018.06.17 at 17h 20m 28s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralsTest - 2018.06.17 at 17h 20m 57s.xml">
       <configuration name="RomanNumeralsTest" configurationId="JUnit" />
     </history-entry>
@@ -384,9 +374,12 @@
     <history-entry file="YatzyTest - 2018.06.18 at 10h 59m 57s.xml">
       <configuration name="YatzyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="YatzyTest - 2018.06.18 at 11h 00m 34s.xml">
+      <configuration name="YatzyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22840000" />
+    <option name="totallyTimeSpent" value="23533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -455,9 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#3197#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,8 +569,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/YatzyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="133">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#119#120#0" expanded="true" />
@@ -593,11 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Yatzy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#3197#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
