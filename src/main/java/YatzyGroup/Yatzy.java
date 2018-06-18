@@ -107,29 +107,31 @@ public class Yatzy {
 
     public int getYatzyResult(String categories, int[] rolls) {
         int result = 0;
-        IDicePlayWays dicePlayWays = null;
-//        System.out.println("YatzyGroup.DicePlay" + categories);
         Class classT = null;
         try {
-            classT = Class.forName("YatzyGroup.DicePlay"+categories).getClass();
-            for(Method temp:classT.getDeclaredMethods()){
-                System.out.println(temp.getName());
-            }
-            System.out.println(classT.toString());
-            Constructor<?> constructor = classT.getConstructor();
-            Object obj = constructor.newInstance();
-            Method getYatzyResult = classT.getDeclaredMethod("getYatzyResult");
-            result = (Integer) getYatzyResult.invoke(obj, rolls);
+            classT = Class.forName("YatzyGroup.DicePlay" + categories);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-        } catch (NoSuchMethodException e) {
+        }
+        Object object = null;
+        try {
+            object = classT.newInstance();
+        } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
             e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
+        }
+        Method[] methods = classT.getDeclaredMethods();
+        for (Method method : methods) {
+            if ("getYatzyResult".equals(method.getName())) {
+                try {
+                    result = (Integer) method.invoke(object, rolls);
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (InvocationTargetException e) {
+                    e.printStackTrace();
+                }
+            }
         }
         return result;
     }
