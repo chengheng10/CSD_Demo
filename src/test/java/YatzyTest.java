@@ -58,15 +58,25 @@ public class YatzyTest {
 
     @Test
     public void yatzyTestCase010() {
-        Assert.assertEquals(0, yatzy.getYatzyResult("ThreeKind", new int[]{3,3,4,5,6}));
+        Assert.assertEquals(0, yatzy.getYatzyResult("ThreeKind", new int[]{3, 3, 4, 5, 6}));
     }
 
     @Test
     public void yatzyTestCase011() {
-        Assert.assertEquals(0, yatzy.getYatzyResult("ThreeKind", new int[]{ 3,3,3,3,1}));
+        Assert.assertEquals(0, yatzy.getYatzyResult("ThreeKind", new int[]{3, 3, 3, 3, 1}));
     }
+
     @Test
     public void yatzyTestCase012() {
-        Assert.assertEquals(8, yatzy.getYatzyResult("FourKind", new int[]{  2,2,2,2,5}));
+        Assert.assertEquals(8, yatzy.getYatzyResult("FourKind", new int[]{2, 2, 2, 2, 5}));
+    }
+
+    @Test
+    public void yatzyTestCase013() {
+        Assert.assertEquals(0, yatzy.getYatzyResult("FourKind", new int[]{2, 2, 2, 5, 5}));
+    }
+    @Test
+    public void yatzyTestCase014() {
+        Assert.assertEquals(0, yatzy.getYatzyResult("FourKind", new int[]{2, 2, 2, 2, 2}));
     }
 }
