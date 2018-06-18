@@ -19,4 +19,8 @@ public class YatzyTest {
     public void yatzyTestCase004(){
         Assert.assertEquals(50,Yatzy.getYatzyResult("Yatzy", new int[]{5,5,5,5,5}));
     }
+    @Test
+    public void yatzyTestCase005(){
+        Assert.assertEquals(0,Yatzy.getYatzyResult("Yatzy", new int[]{1,1,1,2,1}));
+    }
 }
