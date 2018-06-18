@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11722ad-9200-40f6-b240-6abd00242290" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/YatzyGroup/DicePlayFullhouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/YatzyGroup/Yatzy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/YatzyGroup/Yatzy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/YatzyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YatzyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/YatzyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="398">
-              <caret line="113" column="88" selection-start-line="113" selection-start-column="88" selection-end-line="113" selection-end-column="88" />
+              <caret line="120" column="52" lean-forward="true" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
@@ -230,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.YatzyTest.yatzyTestCase021">
+  <component name="RunManager" selected="JUnit.YatzyTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -366,8 +363,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.YatzyTest.yatzyTestCase021" />
         <item itemvalue="JUnit.YatzyTest" />
+        <item itemvalue="JUnit.YatzyTest.yatzyTestCase021" />
         <item itemvalue="JUnit.YatzyTest.yatzyTestCase020" />
         <item itemvalue="JUnit.YatzyTest.yatzyTestCase019" />
         <item itemvalue="JUnit.YatzyTest.yatzyTestCase018" />
@@ -387,14 +384,11 @@
       <workItem from="1529138971155" duration="4924000" />
       <workItem from="1529196679588" duration="405000" />
       <workItem from="1529197192454" duration="17278000" />
-      <workItem from="1529290597512" duration="10361000" />
+      <workItem from="1529290597512" duration="10681000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YatzyTest - 2018.06.18 at 15h 09m 16s.xml">
-      <configuration name="YatzyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="YatzyTest - 2018.06.18 at 15h 10m 17s.xml">
       <configuration name="YatzyTest" configurationId="JUnit" />
     </history-entry>
@@ -422,9 +416,12 @@
     <history-entry file="YatzyTest - 2018.06.18 at 15h 39m 06s.xml">
       <configuration name="YatzyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="YatzyTest_yatzyTestCase021 - 2018.06.18 at 15h 39m 40s.xml">
+      <configuration name="YatzyTest.yatzyTestCase021" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32968000" />
+    <option name="totallyTimeSpent" value="33288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -761,7 +758,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/YatzyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
-          <caret line="113" column="88" selection-start-line="113" selection-start-column="88" selection-end-line="113" selection-end-column="88" />
+          <caret line="120" column="52" lean-forward="true" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />

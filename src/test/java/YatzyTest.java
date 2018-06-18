@@ -105,12 +105,19 @@ public class YatzyTest {
     public void yatzyTestCase019() {
         Assert.assertEquals(0, yatzy.getYatzyResult("Twopairs", new int[]{1, 1, 2, 2, 2}));
     }
+
     @Test
     public void yatzyTestCase020() {
         Assert.assertEquals(8, yatzy.getYatzyResult("Fullhouse", new int[]{1, 1, 2, 2, 2}));
     }
+
     @Test
     public void yatzyTestCase021() {
         Assert.assertEquals(0, yatzy.getYatzyResult("Fullhouse", new int[]{2, 2, 3, 3, 4}));
+    }
+
+    @Test
+    public void yatzyTestCase022() {
+        Assert.assertEquals(0, yatzy.getYatzyResult("Fullhouse", new int[]{4, 4, 4, 4, 4}));
     }
 }
