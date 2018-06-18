@@ -111,6 +111,8 @@ public class Yatzy {
             dicePlayWays = new DicePlayYatzy();
         }else if (categories.equals("Doubles")) {
             dicePlayWays = new DicePlayDoubles();
+        }else if (categories.equals("ThreeKind")) {
+            dicePlayWays = new DicePlayThreeKind();
         }else{
             dicePlayWays = new DicePlayDefault();
         }
